@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+li{
+    text-decoration-line: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*barra de navegacion*/
+.navegacion{
+    display: block;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.nav-bloque{
+    float: left;
+    
+   
+}
+
+li .bloque{
+    color: white;
+    padding: 14px 16px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+li .bloque:hover{
+    background-color: #111;
+}
+
+/*menu seleccion de materias*/
+
+.menu-materias{
+    max-width:  50%;
+    background-color: #111;
+    position: relative;
+    overflow-x: auto;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.titulo{
+    text-align: center;
+    margin: 5px;
+    color: aliceblue;
+}
+
+.contenedor-materias{
+    display: block;
+    margin: 20px;
+}
+
+.lista-materias{
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+
+.materias{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+li .materias:hover{
+    background-color: silver;
+    padding: 14px 16px;
+}
+
+/*menu exam-practice*/
+
+.opcion-materia{
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 15px;
+}
+
+.opciones{
+    padding: 15px;
+}
+
+.exam-practice{
+   color: aliceblue;
+   font-weight: bold;  
+}
+
+li .exam-practice:hover{
+    background-color: silver;
+    padding: 14px 16px;
+}
+
+/* decoraciones temas*/
+
+.contenedor-temas{
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #111;
+    padding: 10px;
+}
+
+.temas{
+    border-bottom: solid white;
+    color: aliceblue;
+    text-align: left;
+}
+
+.texts{
+    color: aliceblue;
+    text-align: justify;
+    margin-top: 10px;
+}
